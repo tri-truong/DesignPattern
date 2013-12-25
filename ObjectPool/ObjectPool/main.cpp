@@ -19,6 +19,7 @@ int main(int argc, const char * argv[])
     
     pool->checkIn(object1);
     Object* object3 = pool->checkOut();
+    Object* object4 = pool->checkOut();
     return 0;
 }
 
