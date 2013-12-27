@@ -10,5 +10,14 @@
 #define __Prototype__Dynamic__
 
 #include <iostream>
+#include "Object.h"
 
+class Dynamic : public Object{
+public:
+    Dynamic();
+    virtual ~Dynamic();
+    
+    virtual Object* clone ();
+    virtual void render ();
+};
 #endif /* defined(__Prototype__Dynamic__) */

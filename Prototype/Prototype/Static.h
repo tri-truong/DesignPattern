@@ -10,5 +10,13 @@
 #define __Prototype__Static__
 
 #include <iostream>
-
+#include "Object.h"
+class Static : public Object {
+public:
+    Static();
+    virtual ~Static();
+    
+    virtual Object* clone ();
+    virtual void render ();
+};
 #endif /* defined(__Prototype__Static__) */

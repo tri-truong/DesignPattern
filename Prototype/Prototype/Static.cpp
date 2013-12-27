@@ -7,3 +7,16 @@
 //
 
 #include "Static.h"
+Static::Static(){
+    
+}
+Static::~Static(){
+    
+}
+
+Object* Static::clone (){
+    return new Static();
+}
+void Static::render (){
+    cout<<"Render STATIC"<<endl;
+}

@@ -11,6 +11,7 @@
 		7E3D6FDF186D2F53004CCCAE /* ChainOfResponsibility.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E3D6FDE186D2F53004CCCAE /* ChainOfResponsibility.1 */; };
 		7E3D6FE7186D2F7B004CCCAE /* Base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D6FE5186D2F7B004CCCAE /* Base.cpp */; };
 		7E3D6FEA186D2F91004CCCAE /* HandlerOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D6FE8186D2F91004CCCAE /* HandlerOne.cpp */; };
+		7E3D6FED186D2FAC004CCCAE /* HandlerTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D6FEB186D2FAC004CCCAE /* HandlerTwo.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		7E3D6FE6186D2F7B004CCCAE /* Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
 		7E3D6FE8186D2F91004CCCAE /* HandlerOne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HandlerOne.cpp; sourceTree = "<group>"; };
 		7E3D6FE9186D2F91004CCCAE /* HandlerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandlerOne.h; sourceTree = "<group>"; };
+		7E3D6FEB186D2FAC004CCCAE /* HandlerTwo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HandlerTwo.cpp; sourceTree = "<group>"; };
+		7E3D6FEC186D2FAC004CCCAE /* HandlerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandlerTwo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				7E3D6FE6186D2F7B004CCCAE /* Base.h */,
 				7E3D6FE8186D2F91004CCCAE /* HandlerOne.cpp */,
 				7E3D6FE9186D2F91004CCCAE /* HandlerOne.h */,
+				7E3D6FEB186D2FAC004CCCAE /* HandlerTwo.cpp */,
+				7E3D6FEC186D2FAC004CCCAE /* HandlerTwo.h */,
 			);
 			path = ChainOfResponsibility;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 				7E3D6FEA186D2F91004CCCAE /* HandlerOne.cpp in Sources */,
 				7E3D6FE7186D2F7B004CCCAE /* Base.cpp in Sources */,
 				7E3D6FDD186D2F53004CCCAE /* main.cpp in Sources */,
+				7E3D6FED186D2FAC004CCCAE /* HandlerTwo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

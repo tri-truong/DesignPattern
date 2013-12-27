@@ -11,6 +11,7 @@
 		7E3D6FBF186BEBA9004CCCAE /* Composite.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E3D6FBE186BEBA9004CCCAE /* Composite.1 */; };
 		7E3D6FC7186BEC13004CCCAE /* Component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D6FC5186BEC13004CCCAE /* Component.cpp */; };
 		7E3D6FCA186BEC28004CCCAE /* Leaf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D6FC8186BEC28004CCCAE /* Leaf.cpp */; };
+		7E3D6FCD186BEC3D004CCCAE /* Composite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D6FCB186BEC3D004CCCAE /* Composite.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		7E3D6FC6186BEC13004CCCAE /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
 		7E3D6FC8186BEC28004CCCAE /* Leaf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Leaf.cpp; sourceTree = "<group>"; };
 		7E3D6FC9186BEC28004CCCAE /* Leaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leaf.h; sourceTree = "<group>"; };
+		7E3D6FCB186BEC3D004CCCAE /* Composite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Composite.cpp; sourceTree = "<group>"; };
+		7E3D6FCC186BEC3D004CCCAE /* Composite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Composite.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				7E3D6FC6186BEC13004CCCAE /* Component.h */,
 				7E3D6FC8186BEC28004CCCAE /* Leaf.cpp */,
 				7E3D6FC9186BEC28004CCCAE /* Leaf.h */,
+				7E3D6FCB186BEC3D004CCCAE /* Composite.cpp */,
+				7E3D6FCC186BEC3D004CCCAE /* Composite.h */,
 			);
 			path = Composite;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E3D6FCA186BEC28004CCCAE /* Leaf.cpp in Sources */,
+				7E3D6FCD186BEC3D004CCCAE /* Composite.cpp in Sources */,
 				7E3D6FBD186BEBA8004CCCAE /* main.cpp in Sources */,
 				7E3D6FC7186BEC13004CCCAE /* Component.cpp in Sources */,
 			);

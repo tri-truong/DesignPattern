@@ -7,3 +7,18 @@
 //
 
 #include "Component.h"
+//    Create Func
+Component* Component::create (){
+    return new Component();
+}
+//    Constructor
+Component::Component(){
+    
+}
+Component::~Component(){
+    
+}
+//    virtual method
+void Component::render (){
+    cout<<"render COMPONENT"<<endl;
+}

@@ -10,5 +10,12 @@
 #define __ChainOfResponsibility__HandlerTwo__
 
 #include <iostream>
-
+#include "Base.h"
+class HandlerTwo : public Base{
+public:
+    HandlerTwo();
+    virtual ~HandlerTwo();
+//    virtual method
+    virtual void handler(int n);
+};
 #endif /* defined(__ChainOfResponsibility__HandlerTwo__) */

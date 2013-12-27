@@ -10,5 +10,15 @@
 #define __Composite__Component__
 
 #include <iostream>
-
+using namespace std;
+class Component {
+public:
+//    Create Func
+    static Component* create ();
+//    Constructor
+    Component();
+    virtual ~Component();
+//    virtual method
+    virtual void render ();
+};
 #endif /* defined(__Composite__Component__) */

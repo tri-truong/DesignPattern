@@ -7,3 +7,16 @@
 //
 
 #include "HandlerTwo.h"
+HandlerTwo::HandlerTwo(){
+    
+}
+HandlerTwo::~HandlerTwo(){
+    
+}
+//    virtual method
+void HandlerTwo::handler(int n){
+    std::cout<<"Hanlder TWO :"<<n<<std::endl;
+    if (_base) {
+        _base->handler(n);
+    }
+}

@@ -12,6 +12,7 @@
 		7E3D6FA4186B507C004CCCAE /* Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D6FA2186B507C004CCCAE /* Object.cpp */; };
 		7E3D6FA7186B535D004CCCAE /* Factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D6FA5186B535D004CCCAE /* Factory.cpp */; };
 		7E3D6FAA186B55DD004CCCAE /* Dynamic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D6FA8186B55DD004CCCAE /* Dynamic.cpp */; };
+		7E3D6FAD186B55E7004CCCAE /* Static.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D6FAB186B55E7004CCCAE /* Static.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		7E3D6FA6186B535D004CCCAE /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
 		7E3D6FA8186B55DD004CCCAE /* Dynamic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dynamic.cpp; sourceTree = "<group>"; };
 		7E3D6FA9186B55DD004CCCAE /* Dynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dynamic.h; sourceTree = "<group>"; };
+		7E3D6FAB186B55E7004CCCAE /* Static.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Static.cpp; sourceTree = "<group>"; };
+		7E3D6FAC186B55E7004CCCAE /* Static.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Static.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				7E3D6FA6186B535D004CCCAE /* Factory.h */,
 				7E3D6FA8186B55DD004CCCAE /* Dynamic.cpp */,
 				7E3D6FA9186B55DD004CCCAE /* Dynamic.h */,
+				7E3D6FAB186B55E7004CCCAE /* Static.cpp */,
+				7E3D6FAC186B55E7004CCCAE /* Static.h */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 				7E3D6FA4186B507C004CCCAE /* Object.cpp in Sources */,
 				7E3D6FAA186B55DD004CCCAE /* Dynamic.cpp in Sources */,
 				7E3D6FA7186B535D004CCCAE /* Factory.cpp in Sources */,
+				7E3D6FAD186B55E7004CCCAE /* Static.cpp in Sources */,
 				7E3D6F9A186B5001004CCCAE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

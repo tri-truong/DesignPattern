@@ -10,5 +10,13 @@
 #define __Prototype__Factory__
 
 #include <iostream>
-
+#include "Object.h"
+#include "Static.h"
+#include "Dynamic.h"
+class Factory {
+public:
+    static Object* create(int type);
+protected:
+    static Object* _object[3];
+};
 #endif /* defined(__Prototype__Factory__) */

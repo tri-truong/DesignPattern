@@ -7,3 +7,17 @@
 //
 
 #include "HandlerOne.h"
+//    Constructor Destructor
+HandlerOne::HandlerOne(){
+    
+}
+HandlerOne::~HandlerOne(){
+    
+}
+//    virtual Method
+void HandlerOne::handler (int n){
+    std::cout<<"Hanlder ONE :"<<n<<std::endl;
+    if (_base) {
+        _base->handler(n);
+    }
+}

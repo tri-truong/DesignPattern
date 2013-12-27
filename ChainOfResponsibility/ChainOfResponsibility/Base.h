@@ -10,5 +10,17 @@
 #define __ChainOfResponsibility__Base__
 
 #include <iostream>
-
+class Base {
+public:
+//    Constructor Destructor
+    Base();
+    virtual ~Base();
+//    Methods
+    void setBase (Base* base);
+    void addBase (Base* base);
+//    virtual Method
+    virtual void handler (int n);
+protected:
+    Base* _base;
+};
 #endif /* defined(__ChainOfResponsibility__Base__) */

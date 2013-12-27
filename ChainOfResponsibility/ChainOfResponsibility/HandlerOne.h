@@ -10,5 +10,13 @@
 #define __ChainOfResponsibility__HandlerOne__
 
 #include <iostream>
-
+#include "Base.h"
+class HandlerOne : public Base {
+public:
+//    Constructor Destructor
+    HandlerOne();
+    virtual ~HandlerOne();
+//    virtual Method
+     virtual void handler (int n);
+};
 #endif /* defined(__ChainOfResponsibility__HandlerOne__) */

@@ -7,3 +7,7 @@
 //
 
 #include "Factory.h"
+Object* Factory::create(int type){
+    return _object[type]->clone();
+}
+Object* Factory::_object[3] = {new Object(),new Dynamic(),new Static()};

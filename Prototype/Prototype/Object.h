@@ -10,5 +10,14 @@
 #define __Prototype__Object__
 
 #include <iostream>
-
+using namespace std;
+class Object {
+public:
+//    Constructor - Destructor
+    Object();
+    virtual ~Object();
+//    method
+    virtual Object* clone ();
+    virtual void render ();
+};
 #endif /* defined(__Prototype__Object__) */

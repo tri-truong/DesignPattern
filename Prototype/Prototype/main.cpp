@@ -7,12 +7,16 @@
 //
 
 #include <iostream>
-
+#include "Factory.h"
 int main(int argc, const char * argv[])
 {
 
     // insert code here...
     std::cout << "Hello, World!\n";
+    for (int i = 0; i < 30; i++) {
+        Object* object = Factory::create(i%3);
+        object->render();
+    }
     return 0;
 }
 

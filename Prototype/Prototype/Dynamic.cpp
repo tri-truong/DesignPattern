@@ -7,3 +7,16 @@
 //
 
 #include "Dynamic.h"
+Dynamic::Dynamic(){
+    
+}
+Dynamic::~Dynamic(){
+    
+}
+
+Object* Dynamic::clone (){
+    return new Dynamic();
+}
+void Dynamic::render (){
+    cout<<"Render DYNAMIC"<<endl;
+}

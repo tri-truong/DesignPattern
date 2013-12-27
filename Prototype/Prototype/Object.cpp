@@ -7,3 +7,16 @@
 //
 
 #include "Object.h"
+Object::Object(){
+    
+}
+Object::~Object(){
+    
+}
+//    method
+Object* Object::clone (){
+    return new Object();
+}
+void Object::render (){
+    cout<<"Render Object"<<endl;
+}
