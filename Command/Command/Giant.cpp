@@ -7,3 +7,20 @@
 //
 
 #include "Giant.h"
+int Giant::_countID = 0;
+Giant::Giant(){
+    _id = _countID++;
+}
+Giant::~Giant (){
+    
+}
+//
+void  Giant::fee (){
+    std::cout<<_id<<" : FEE"<<std::endl;
+}
+void  Giant::phi (){
+    std::cout<<_id<<" : PHI"<<std::endl;
+}
+void  Giant::pheaux (){
+    std::cout<<_id<<" : PHEAUX"<<std::endl;
+}

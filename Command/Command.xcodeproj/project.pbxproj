@@ -11,6 +11,7 @@
 		7E3D6FFD186D3B01004CCCAE /* Command.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E3D6FFC186D3B01004CCCAE /* Command.1 */; };
 		7E3D7005186D3CC0004CCCAE /* Giant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D7003186D3CC0004CCCAE /* Giant.cpp */; };
 		7E3D7008186D3D49004CCCAE /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D7006186D3D49004CCCAE /* Command.cpp */; };
+		7E3D700B186D3F8C004CCCAE /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D7009186D3F8C004CCCAE /* Queue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		7E3D7004186D3CC0004CCCAE /* Giant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Giant.h; sourceTree = "<group>"; };
 		7E3D7006186D3D49004CCCAE /* Command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Command.cpp; sourceTree = "<group>"; };
 		7E3D7007186D3D49004CCCAE /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		7E3D7009186D3F8C004CCCAE /* Queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
+		7E3D700A186D3F8C004CCCAE /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				7E3D7004186D3CC0004CCCAE /* Giant.h */,
 				7E3D7006186D3D49004CCCAE /* Command.cpp */,
 				7E3D7007186D3D49004CCCAE /* Command.h */,
+				7E3D7009186D3F8C004CCCAE /* Queue.cpp */,
+				7E3D700A186D3F8C004CCCAE /* Queue.h */,
 			);
 			path = Command;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 				7E3D6FFB186D3B01004CCCAE /* main.cpp in Sources */,
 				7E3D7008186D3D49004CCCAE /* Command.cpp in Sources */,
 				7E3D7005186D3CC0004CCCAE /* Giant.cpp in Sources */,
+				7E3D700B186D3F8C004CCCAE /* Queue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,3 +7,10 @@
 //
 
 #include "Command.h"
+Command::Command(Giant* object, Action method){
+    _object = object;
+    _method = method;
+}
+void Command::execute (){
+    (_object->*_method)();
+}
